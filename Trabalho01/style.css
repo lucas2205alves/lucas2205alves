@@ -1,0 +1,19 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(71, 71, 71);
+}
+a {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    padding: 50px;
+    padding-left: 20px;
+}
+.noticia {
+    font-size: 19px;
+    padding: 0px;
+    margin: 0px;
+}
+table, th, td {
+    border:1px solid black;
+}
