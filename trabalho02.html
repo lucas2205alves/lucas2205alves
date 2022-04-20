@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+<!--
+    <div class="xadrez">
+        <div class="filho1"></div>
+        <div class="filho2"></div>
+        <div class="filho3"></div>
+        <div class="filho4"></div>
+        <div class="filho5"></div>
+        <div class="filho6"></div>
+        <div class="filho7"></div>
+        <div class="filho8"></div>
+        <div class="filho9"></div>
+        <div class="filho10"></div>
+        <div class="filho11"></div>
+        <div class="filho12"></div>
+    </div>
+-->
+    <!-- Medidas absolutas: px,mm,pt,pc,in
+         Medidas relativas: em, vh, rem, vw(vwidth), %, vh(vheight), vmin, vmax, ch,-->
+         <!-- Percentual é relativo ao tamanho do elemento pai-->
+
+
+    <div class="xadrez">
+        <div class="letras">-</div>
+        <div class="letras">A</div>
+        <div class="letras">B</div>
+        <div class="letras">C</div>
+        <div class="letras">D</div>
+        <div class="letras">E</div>
+        <div class="letras">F</div>
+        <div class="letras">G</div>
+        <div class="letras">H</div>
+        
+        <div class="numero">1</div>
+        <div class="branco">&#9814;</div>
+        <div class="preto">&#9816;</div>
+        <div class="branco">&#9815;</div>
+        <div class="preto">&#9812;</div>
+        <div class="branco">&#9813;</div>
+        <div class="preto">&#9815;</div>
+        <div class="branco">&#9816;</div>
+        <div class="preto">&#9814;</div>
+
+        <div class="numero">2</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        
+        <div class="numero">3</div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        
+        <div class="numero">4</div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        
+        <div class="numero">5</div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+
+        <div class="numero">6</div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+        <div class="preto"></div>
+        <div class="branco"></div>
+
+        <div class="numero">7</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+        <div class="branco">&#9817;</div>
+        <div class="preto">&#9817;</div>
+
+        <div class="numero">8</div>
+        <div class="preto">&#9814;</div>
+        <div class="branco">&#9816;</div>
+        <div class="preto">&#9815;</div>
+        <div class="branco">&#9813;</div>
+        <div class="preto">&#9812;</div>
+        <div class="branco">&#9815;</div>
+        <div class="preto">&#9816;</div>
+        <div class="branco">&#9814;</div>
+    </div>
+    
+    <style> 
+        .xadrez{ 
+            width: 100vw;
+            height: 100vh; 
+        }
+        .numero {
+            height: 11.1%;
+            width: 11.1%;
+            border: solid 1px;
+            text-align: center;
+            padding-top: 20px;
+            float: left;
+            box-sizing: border-box;
+        }
+        .letras {
+            height: 3%;
+            width: 11.1%;
+            float: left;
+            box-sizing: border-box;
+            border: 1px solid;
+            text-align: center;
+        }
+        .branco {
+            height: 11.1%;
+            width: 11.1%;
+            background-color: rgb(219, 214, 214);
+            float: left;
+            box-sizing: border-box;
+            color: black;
+            font-size: 3em;
+            text-align: center;
+        }
+        .preto {  
+            height: 11.1%;
+            width: 11.1%;
+            background-color: rgb(0, 0, 0);
+            float: left;
+            box-sizing: border-box;
+            color: white;
+            font-size: 3em;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
