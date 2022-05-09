@@ -1,0 +1,35 @@
+.campo {
+    width: 70vw;
+    height: 50vh;
+    margin-left: 15vw;
+    margin-top: 20vh;
+}
+
+
+.branco {
+    height: 33%;
+    width: 33%;
+    color: rgb(219, 214, 214);
+    background-color: rgb(219, 214, 214);
+    float: left;
+    box-sizing: border-box;
+    font-size: 3em;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.bomba {
+    height: 33%;
+    width: 33%;
+    color: rgb(219, 214, 214);
+    background-color: rgb(219, 214, 214);
+    float: left;
+    box-sizing: border-box;
+    font-size: 3em;
+    text-align: center;
+    border: solid 1px black;
+}
+
+a:visited {
+        color: black;
+}
